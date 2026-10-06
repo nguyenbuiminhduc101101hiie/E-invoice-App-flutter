@@ -1,0 +1,15 @@
+# Backend
+backend/**/bin/
+backend/**/obj/
+backend/InvoiceApi/wwwroot/
+backend/InvoiceApi/App_Data/
+# Chứa mật khẩu DB / Viettel / SMTP — không commit
+backend/InvoiceApi/appsettings.Development.json
+backend/InvoiceApi/appsettings.Production.json
+*.user
+.vs/
+
+# Flutter
+app/build/
+app/.dart_tool/
+app/.flutter-plugins-dependencies
